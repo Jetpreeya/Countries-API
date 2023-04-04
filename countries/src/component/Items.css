@@ -1,0 +1,23 @@
+.name{
+    display: flex;
+    color: black;
+    position: center;
+}
+
+.main{
+    display: flex;
+    display: block;
+    padding: 10px;
+}
+
+.population{
+    display: flex;
+    display: block;
+    color: black;
+    position: center;
+}
+
+.picture{
+    position: center;
+    margin: 10px;
+}

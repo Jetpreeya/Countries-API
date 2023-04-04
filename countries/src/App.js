@@ -1,13 +1,13 @@
-import React from "react";
-import "./App.css";
-import FetchAPI from "./component/FetchApi";
+import { BrowserRouter } from "react-router-dom";
+import AllContries  from "./component/AllContries";
+import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <FetchAPI />
-    </div>
+    <BrowserRouter>
+    <h2 className="h2">250 countries</h2>
+        <AllContries/>
+    </BrowserRouter>
   );
 }
-
 export default App;
